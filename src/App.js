@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import "./App.css";
+import Homepage from "./screens/HomeScreen";
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          {/* <Route path="/CSE/BTech" element={<Navigate to="/btech-in-computer-science-engineering" />} /> */}
+          <Route exact path="/" element={<Homepage />} />
+          <Route exact path="/Sugam-Darshan" element={<div className="h-screen flex items-center justify-center">
+            <p style={{ fontSize: 30, fontWeight: 'bolder' }}>Services Categories work in progress</p>
+          </div>} />
+          <Route exact path="/b" element={<p>Special Promo work in progress</p>} />
+        </Routes>
+      </BrowserRouter>
+
     </div>
   );
-}
+};
 
 export default App;
