@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/reacthost/static/css/main.7ebc35b0.css",
+    "main.js": "/reacthost/static/js/main.4a10807d.js",
+    "static/js/453.3117c5ac.chunk.js": "/reacthost/static/js/453.3117c5ac.chunk.js",
+    "static/media/poster1.jpg": "/reacthost/static/media/poster1.ca059728c5d4d5f7a404.jpg",
+    "static/media/poster2.jpg": "/reacthost/static/media/poster2.24bcc315bd72c9ab5ead.jpg",
+    "static/media/MANDIR-VECTORcolorchange.png": "/reacthost/static/media/MANDIR-VECTORcolorchange.9762a83f263b95590b1e.png",
+    "index.html": "/reacthost/index.html",
+    "main.7ebc35b0.css.map": "/reacthost/static/css/main.7ebc35b0.css.map",
+    "main.4a10807d.js.map": "/reacthost/static/js/main.4a10807d.js.map",
+    "453.3117c5ac.chunk.js.map": "/reacthost/static/js/453.3117c5ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ebc35b0.css",
+    "static/js/main.4a10807d.js"
+  ]
+}
